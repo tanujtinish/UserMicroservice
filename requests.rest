@@ -1,0 +1,10 @@
+GET http://localhost:3000/emp
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWJoaXNoZWsiLCJpYXQiOjE2ODkyNjQ2MDJ9.SCLu6_5_tDTEeGZcYoZ3a_YW3GphsDQZCQI0ZheYkg8
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "Abhishek"
+}
